@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="#" id="logo">Logo</a>
+        <nav>
+            <ul class="headerNav">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">OUR TEAM</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Container">
+        <div class="LeftNav">
+            <div>
+                Sidebar
+            </div>
+            <nav>
+                <ul class="SideNav">
+                    <li><a href="/">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <main>
+                <div>
+                    <div class="Title">
+                        <h1>Main title</h1>
+                        <p>Lorem ipsum dolor sit amet, in velit labitur diceret eum, sit oratio integre nominavi eu. Postea officiis te nec, molestiae similique has ne, sea id debitis percipit. Ut facete contentiones necessitatibus vim, ei est integre epicurei assentior, elit illud vidisse at pri. </p>
+                    </div>
+                    <form action="#" enctype="text/plain" name="WorkSheet" method="post" target="_blank">
+                        <fieldset>
+                            <div>
+                                <h2>Contact form</h2>
+                            </div>
+                            <div class="Block1">
+                                <div class="Labels">
+                                    <p>
+                                        <label for="name">Text<em>*</em></label>
+                                    </p>
+                                    <p><label for="email">Email<em>*</em></label></p>
+                                    <p><label for="phNumber">Phone number</label></p>
+                                    <p><label for="password">Password<em>*</em></label></p>
+                                    <div class="margin-bottom">
+                                        <input type="checkbox" id="check01">
+                                        <label for="check01">Check01</label>
+                                    </div>
+                                    <div class="margin-bottom">
+                                        <input type="radio" id="Rad01" name="01" value="R01">
+                                        <label for="Rad01">Radio01</label>
+                                    </div>
+                                    <div>
+                                        <label for="Option">Select</label>
+                                    </div>
+                                </div>
+
+                                <div class="Inputs">
+                                    <p>
+                                        <input class="Content" type="text" id="name" placeholder="Enter your name">
+                                    </p>
+                                    <p>
+                                        <input type="email" class="Content" id="email" placeholder="Enter your email">
+                                    </p>
+                                    <p> <input type="tel" class="Content" id="phNumber" placeholder="+380xxxxxxxxx" pattern="[\+]\d{3}[0-9]{9}"> </p>
+                                    <p> <input type="password" class="Content" id="password" placeholder="Enter your password"> </p>
+                                    <div class="margin-bottom">
+                                        <input type="checkbox" id="check02">
+                                        <label for="check02">Check02</label>
+
+                                    </div>
+                                    <div class="radio-block margin-bottom">
+                                        <div>
+                                            <input type="radio" id="Rad02" name="01" value="R02">
+                                            <label for="Rad02">Radio02</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="Rad03" name="01" value="R03">
+                                            <label for="Rad03">Radio03</label>
+                                        </div>
+                                    </div>
+                                    <div class="margin-bottom">
+                                        <select class="Content" id="Option">
+                                            <option value="Default">DefaultOption</option>
+                                            <option value="Opt1">Option01</option>
+                                            <option value="Opt2">Option02</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <textarea class="Content" placeholder="Field for long text"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="GO" style="background: black; color: white; width: 100px;">
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
